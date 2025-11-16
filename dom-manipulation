@@ -1,6 +1,9 @@
 
 document.getElementById.addEventListener();
 
+function.getquerySelector(){
+}
+
 <div>
     <input id="showRandomQuoteText" type="text" placeholder="show a new quote" />
     <input id="showRandomQuoteCategory" type="text" placeholder="Enter quote category" />
