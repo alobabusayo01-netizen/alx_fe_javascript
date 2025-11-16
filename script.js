@@ -21,5 +21,11 @@ document.getElementById.addEventListener();
       saveQuotes();
       alert('Quotes imported successfully!');
     };
+      
+  <select id="categoryFilter" onchange="filterQuotes()">
+    <option value="all">All Categories</option>
+    <!-- Dynamically populated categories -->
+  </select>
+      
     fileReader.readAsText(event.target.files[0]);
   }
